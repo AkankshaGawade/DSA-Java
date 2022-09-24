@@ -1,5 +1,5 @@
 class Solution {
-   static int search(int[] nums,int target){
+    public int search(int[] nums, int target) {
         int pivot=findPivot(nums);
         //if you did not find pivot that means the array is not rotated
         if(pivot==-1){
